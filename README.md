@@ -154,19 +154,19 @@ python main.py https://example.com -q -o scan_$(date +%s).json
 ```
 ╭─────────────────────────────────────────────╮
 │  WAF / FIREWALL DETECTOR                    │
-│  Target : https://example.com              │
-│  Domain : example.com                      │
-│  Scan ID: 20250115_142301                  │
+│  Target : https://example.com               │
+│  Domain : example.com                       │
+│  Scan ID: 20250115_142301                   │
 ╰─────────────────────────────────────────────╯
 
   Probing sending requests… ████████████ 14/14  [0:00:03]
 
 ╭─ WAF / Firewall Detection Results ──────────────────────────────╮
-│ WAF / Product     │ Confidence │ Evidence             │ Sources  │
-│ Cloudflare        │  VERY HIGH │ • Header: cf-ray: …  │ header,  │
-│                   │            │ • Cookie: __cfruid   │ cookie,  │
-│                   │            │ • Server: cloudflare │ server   │
-╰──────────────────────────────────────────────────────────────────╯
+│ WAF / Product     │ Confidence │ Evidence             │ Sources │
+│ Cloudflare        │  VERY HIGH │ • Header: cf-ray: …  │ header, │
+│                   │            │ • Cookie: __cfruid   │ cookie, │
+│                   │            │ • Server: cloudflare │ server  │
+╰─────────────────────────────────────────────────────────────────╯
 
 ── Recommendations ───────────────────────────────────────────────
 [✓] Cloudflare — verify WAF rules are set to an appropriate level.
@@ -315,7 +315,7 @@ Released under the **MIT License** — see [LICENSE](LICENSE) for full terms.
 
 <div align="center">
 
-Built with precision by **ICAT Project** · [Linxploit.xyz](https://linxploit.xyz)
+Built with precision by **Hamid | Mindless** · [Linxploit.xyz](https://linxploit.xyz)
 
 *For authorized security research only.*
 
